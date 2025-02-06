@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: url(Rectangle\ 18.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1800px;
+    overflow: hidden;
+}
+.main{
+    background: url(Mask\ Group.svg);
+    max-width: 1180.27px;
+    height: 392.18px;
+    border-radius: 15px;
+    background-color: white;
+    background-size: 1380px;
+    background-position: center;
+    margin: 276px 354px;
+}
+.dov{
+    max-width: 773px;
+    height: 158px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid red;  */
+    margin: 112px 215px;
+}
+.dov1{
+    max-width: 749px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+.input{
+    width: 362.49px;
+    height: 50.72px;
+    border-radius: 9px;
+    padding: 16px 32px;
+    border: 1px solid #A1A1A1;
+}
+.input2{
+    padding: 16px 30px;
+    width: 773.73px;
+    height: 81.65px;
+    border-radius: 9px;
+    border: 1px solid #A1A1A1;
+}
+.h2{
+    margin: 42px 427px;
+}
+@media(max-width: 991.98px){
+    body{
+        max-width: 911px;
+    }
+    .main{
+        width: 635px;
+        height: 401px;
+        margin: 0 auto;
+    }
+    .dov{
+        width: 432px;
+        height: 240px;
+        margin: 112px 215px;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-top: -10px;
+    }
+    .dov1{
+        margin: 0 -100px;
+        flex-wrap: wrap;
+    }
+    .h2{
+        margin-top: 103px;
+        margin-left: 250px;
+        font-size: 24px;
+    }
+    .input{
+        width: 432px;
+    }
+    .input2{
+        margin: 0 -100px;
+        width: 432px;
+        height: 95px;
+
+    }
+}
+@media(max-width: 768.98px){
+    body{
+        max-width: 768px;
+    }
+    .main{
+        width: 267px;
+        height: 298px;
+        margin: 0 auto;
+    }
+    .dov{
+        width: 212px;
+        height: 240px;
+        margin: 112px 215px;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-top: -10px;
+    }
+    .dov1{
+        transform: translate(-90px,0);
+        transition: 0.1s;
+        flex-wrap: wrap;
+    }
+    .h2{
+        margin-top: 103px;
+        margin-left: 250px;
+        font-size: 15px;
+        transform: translate(-110px, 0px);
+        transition: 0.1s;
+    }
+    .input{
+        width: 212px;
+        height: 20px;
+    }
+    .input2{
+        width: 212px;
+        height: 95px;
+        transform: translate(-90px, -30px);
+        transition: 0.1s;
+    }
+}
